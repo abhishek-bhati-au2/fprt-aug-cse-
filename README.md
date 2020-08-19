@@ -1,6 +1,7 @@
 # fprt-aug-cse-
 
 Q-1. What is ACID properties and BASE properties? (10 mark) 
+
 Ans-1)A transaction is a set of related changes which is used to achieve some of the ACID properties. Transactions are tools to achieve the ACID properties.
 A transaction can be defined as a group of tasks. A single task is the minimum processing unit which cannot be divided further.
 A transaction in a database system must maintain Atomicity,Consistency, Isolation, and Durability − commonly known as ACID properties − in order to ensure accuracy, completeness, and data integrity.
@@ -65,6 +66,7 @@ Therefore BASE relaxes consistency to allow the system to process request even i
 ACID and BASE are consistency models for RDBMS and NoSQL respectively. ACID transactions are far more pessimistic i.e. they are more worried about data safety. In the NoSQL database world, ACID transactions are less fashionable as some databases have loosened the requirements for immediate consistency, data freshness and accuracy in order to gain other benefits, like scalability and resiliency.
 
 Q2). What are the differences between paging and segmentation? (10 mark) 
+
 Ans2)Paging & Segmentation are two contrasting approaches to virtual memory management. Virtual memory is when a process is not mapped into the actual physical memory space of a computer but to a virtual imaginary memory space. Every memory request from a process is mapped from the virtual space to physical space by the OS.
 
 There are many reasons for using virtual memory in multitasked operating systems, one of the important ones is that you can have a virtual memory space that is bigger than the physical space by the operating system using disk as an extension of physical memory.
